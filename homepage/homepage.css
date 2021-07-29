@@ -1,0 +1,81 @@
+div {
+    border: solid 2px black;
+    font-size: 0;
+    vertical-align: top;
+    font-family: 微軟正黑體;
+    color: #04B2D9;
+    
+}
+
+.top {
+    position: relative;
+    height: 110px;
+    font-size: 16px;
+    background-color: #a3d9cf;
+}
+
+.top nav {
+    text-align: right;
+    padding-top: 60px;
+    padding-left: 500px;
+    width: 50%;
+    /* 讓nav有寬度，原本由文字撐開 */
+    height: 50%;
+    font-size: 0;
+    /* 消除nav的空白字元 */
+
+}
+
+.top a {
+    display: inline-block;
+    
+    margin: 0 20px 0 20px;
+    line-height: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #04B2D9;
+}
+
+.btn {
+    height: 570px;
+
+}
+
+.left,
+.right {
+    display: inline-flex;
+
+    height: 570px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.left {
+    width: 20%;
+    background-color: #A3D9CF;
+}
+
+img{
+    
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+.right {
+    width: 80%;
+    background-color: #F2E6D0;
+}
+
+.footer {
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #F2E6D0;
+}
+
+.footer>p {
+    display: inline-block;
+    padding: 5px;
+    color: #94E1F2;
+}
