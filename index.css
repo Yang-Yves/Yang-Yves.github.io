@@ -1,13 +1,13 @@
 body {
     /* border: solid 2px black; */
     font-size: 0;
-    background-color: #F2E0C9;
+    background-color: #F2E3D5;
 }
 
 div {
     /* border: solid 2px black; */
     font-family: 微軟正黑體;
-    color: #35656D;
+    color: #00708C;
 
 }
 
@@ -16,23 +16,37 @@ div {
     vertical-align: top;
     display: inline-block;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 18px;
 
 }
-h2{
-    font-size: 30px;
-    padding-left: 30px;
+
+h2 {
+    color: #735A43;
+    font-size: 36px;
+    margin-left: 30px;
     padding-top: 20px;
     padding-bottom: 10px;
     letter-spacing: 3px;
+    border-bottom: solid 3px;
+    width: 20%;
 }
 
+h3 {
+    color: #00708C;
+    font-size: 26px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: solid 5px;
+}
+/* lfet與邊界設定(無顯示) */
 .left {
     position: relative;
     width: 25%;
     /* height: 750px; */
     margin-left: 2%;
-    
+
 }
 
 .left .item {
@@ -40,13 +54,14 @@ h2{
     width: 25%;
     /* height: 700px; */
     box-sizing: border-box;
-    background-color: #35656D;
-    
+    background-color: #00708C;
+    border-radius: 2%;
 
 }
 
-.item .link{
-    color: #F2E0C9;
+
+.item .link {
+    color: #F2E3D5;
     padding-top: 10%;
     padding-bottom: 10%;
     text-align: center;
@@ -74,34 +89,45 @@ h2{
 .right .top {
     position: fixed;
     height: 50px;
-    background-color: #F2E0C9;
+    background-color: #F2E3D5;
     font-size: 0;
-    padding-top: 20px;
+    padding-top: 30px;
     width: 70%;
-    
-    
+
+
 }
-.nav{
+
+.nav {
     margin-left: 40%;
 }
-.right .nav >a{
+
+.right .nav>a {
     text-decoration: none;
     letter-spacing: 2px;
     font-size: 30px;
     font-weight: 900;
     margin: 0 20px;
-    color: #644F34;
+    color: #735A43;
 
 }
 
 .right .col {
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
-.right p{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.right p {
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding-left: 30px;
     letter-spacing: 2px;
     line-height: 1.5;
+}
+
+
+
+.col img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 5%;
 }
